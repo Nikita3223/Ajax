@@ -1,5 +1,5 @@
-let inputRub = document.getElementById('rub'),
-    inputUsd = document.getElementById('usd');
+let inputRub = document.querySelector('.rub'),
+    inputUsd = document.querySelector('.usd');
     
 let request = new XMLHttpRequest();
 
@@ -17,3 +17,4 @@ request.addEventListener('readystatechange', function() {
     }
     
 });
+
