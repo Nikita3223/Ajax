@@ -1,0 +1,7 @@
+.wrapper input {
+    display: block;
+}
+
+.wrapper label{
+    font-size: 30px;
+}
